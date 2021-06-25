@@ -1,0 +1,110 @@
+html {
+  font-family: Avenir Next;
+}
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box; /*cannot be inherited*/
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 175%;
+}
+
+div#container {
+  position: relative;
+  padding: 15px;
+}
+
+p {
+  background-color: #f7f7f7;
+  border: 1px solid black;
+  padding: 15px;
+  padding-top: 35px;
+  height: 200px;
+  color: black; 
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#p1 {
+  background-color: #fdae6b;
+  border: 1px solid black;
+  padding: 0 0;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 125%;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#p2 {
+  background-color: #bcbddc;
+  border: 1px solid black;
+  padding: 0 0;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 125%;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#p3 {
+  background-color: #fc9272;
+  border: 1px solid black;
+  padding: 0 0;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 125%;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** desktop view **********/
+@media (min-width: 992px) {
+  .col-md-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-6, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+/********** mobile view **********/
+@media (max-width: 767px) {
+  .col-xs-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
