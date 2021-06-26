@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box; /*cannot be inherited*/
+  margin: 0;
+  padding: 0;
+}
+
+#header-nav {
+  background-color: #f2f0f7;
+  border-radius: 0;
+}
+
+.navbar-brand {
+	font-weight: bold;
+  font-size: 1.75em;
+	text-align: center;
+}
+
+#nav-list a {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#nav-list a:hover {
+  color: #810f7c
+}
+/* Navigation part complete */
+
+h1 {
+	margin-bottom: 45px;
+  color: #54278f;
+}
+
+div#container {
+  position: relative;
+  padding-bottom: 15px;
+}
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  background-color: #f2f0f7;
+  padding: 15px;
+  color: black; 
+  margin-right: auto;
+  margin-left: auto;
+}
+p:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#tiles {
+  padding-top: 40px;
+}
+#tile-title h3{
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0;
+  width: 100%;
+}
+#tile-title:hover {
+  color: #810f7c;
+}
